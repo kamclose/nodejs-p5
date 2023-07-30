@@ -1,7 +1,7 @@
-import "./style1.css";
 import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
+import "./style1.css";
 
 export default function Login() {
   const history = useNavigate();
