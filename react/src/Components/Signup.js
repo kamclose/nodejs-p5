@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, Navigate } from "react-router-dom";
-
 import "./style1.css";
 
 export default function Signup() {
