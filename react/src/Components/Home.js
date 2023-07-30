@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
 import axios from "axios";
-
-import "./style1.css";
 import Question from "./Question";
+import "./style1.css";
 
 export default function Home() {
   const [categories, setCategories] = useState([]);
